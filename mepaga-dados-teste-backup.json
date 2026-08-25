@@ -1,0 +1,116 @@
+{
+  "versao": 1,
+  "geradoEm": "2026-07-26T12:00:00.000",
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "Maria Silva",
+      "telefone": "11987654321",
+      "observacoes": null,
+      "criadoEm": "2026-05-10T09:00:00.000"
+    },
+    {
+      "id": 2,
+      "nome": "João Pereira",
+      "telefone": "11976543210",
+      "observacoes": "Cliente antigo, sempre paga em dia",
+      "criadoEm": "2026-04-15T14:30:00.000"
+    },
+    {
+      "id": 3,
+      "nome": "Ana Costa",
+      "telefone": "11965432109",
+      "observacoes": null,
+      "criadoEm": "2026-06-01T10:15:00.000"
+    },
+    {
+      "id": 4,
+      "nome": "Carlos Souza",
+      "telefone": "11954321098",
+      "observacoes": "Atrasa às vezes",
+      "criadoEm": "2026-03-20T08:45:00.000"
+    },
+    {
+      "id": 5,
+      "nome": "Fernanda Lima",
+      "telefone": null,
+      "observacoes": null,
+      "criadoEm": "2026-07-01T16:00:00.000"
+    }
+  ],
+  "vendas": [
+    {
+      "id": 1,
+      "clienteId": 1,
+      "data": "2026-06-01T10:00:00.000",
+      "descricao": "Roupas variadas",
+      "valorTotal": 300.0,
+      "tipo": "parcelado"
+    },
+    {
+      "id": 2,
+      "clienteId": 2,
+      "data": "2026-07-10T11:30:00.000",
+      "descricao": "Celular usado",
+      "valorTotal": 450.0,
+      "tipo": "avista"
+    },
+    {
+      "id": 3,
+      "clienteId": 3,
+      "data": "2026-05-20T15:00:00.000",
+      "descricao": "Material de construção",
+      "valorTotal": 600.0,
+      "tipo": "parcelado"
+    },
+    {
+      "id": 4,
+      "clienteId": null,
+      "data": "2026-07-20T13:00:00.000",
+      "descricao": "Peça de reposição",
+      "valorTotal": 80.0,
+      "tipo": "avista"
+    },
+    {
+      "id": 5,
+      "clienteId": 4,
+      "data": "2026-04-01T09:30:00.000",
+      "descricao": "Ferramentas",
+      "valorTotal": 240.0,
+      "tipo": "parcelado"
+    },
+    {
+      "id": 6,
+      "clienteId": 5,
+      "data": "2026-07-25T17:00:00.000",
+      "descricao": "Presente de aniversário",
+      "valorTotal": 150.0,
+      "tipo": "avista"
+    }
+  ],
+  "parcelas": [
+    { "id": 1, "vendaId": 1, "numero": 1, "valorPrevisto": 100.0, "dataVencimento": "2026-06-15T00:00:00.000" },
+    { "id": 2, "vendaId": 1, "numero": 2, "valorPrevisto": 100.0, "dataVencimento": "2026-07-15T00:00:00.000" },
+    { "id": 3, "vendaId": 1, "numero": 3, "valorPrevisto": 100.0, "dataVencimento": "2026-08-15T00:00:00.000" },
+    { "id": 4, "vendaId": 2, "numero": 1, "valorPrevisto": 450.0, "dataVencimento": "2026-07-10T00:00:00.000" },
+    { "id": 5, "vendaId": 3, "numero": 1, "valorPrevisto": 100.0, "dataVencimento": "2026-06-20T00:00:00.000" },
+    { "id": 6, "vendaId": 3, "numero": 2, "valorPrevisto": 100.0, "dataVencimento": "2026-07-20T00:00:00.000" },
+    { "id": 7, "vendaId": 3, "numero": 3, "valorPrevisto": 100.0, "dataVencimento": "2026-08-20T00:00:00.000" },
+    { "id": 8, "vendaId": 3, "numero": 4, "valorPrevisto": 100.0, "dataVencimento": "2026-09-20T00:00:00.000" },
+    { "id": 9, "vendaId": 3, "numero": 5, "valorPrevisto": 100.0, "dataVencimento": "2026-10-20T00:00:00.000" },
+    { "id": 10, "vendaId": 3, "numero": 6, "valorPrevisto": 100.0, "dataVencimento": "2026-11-20T00:00:00.000" },
+    { "id": 11, "vendaId": 4, "numero": 1, "valorPrevisto": 80.0, "dataVencimento": "2026-07-20T00:00:00.000" },
+    { "id": 12, "vendaId": 5, "numero": 1, "valorPrevisto": 120.0, "dataVencimento": "2026-04-15T00:00:00.000" },
+    { "id": 13, "vendaId": 5, "numero": 2, "valorPrevisto": 120.0, "dataVencimento": "2026-05-15T00:00:00.000" },
+    { "id": 14, "vendaId": 6, "numero": 1, "valorPrevisto": 150.0, "dataVencimento": "2026-07-25T00:00:00.000" }
+  ],
+  "pagamentos": [
+    { "id": 1, "parcelaId": 1, "valor": 100.0, "data": "2026-06-15T10:00:00.000", "formaPagamento": "pix", "anotacao": null },
+    { "id": 2, "parcelaId": 2, "valor": 100.0, "data": "2026-07-14T09:00:00.000", "formaPagamento": "dinheiro", "anotacao": null },
+    { "id": 3, "parcelaId": 4, "valor": 450.0, "data": "2026-07-10T11:35:00.000", "formaPagamento": "pix", "anotacao": null },
+    { "id": 4, "parcelaId": 5, "valor": 100.0, "data": "2026-06-19T14:00:00.000", "formaPagamento": "dinheiro", "anotacao": null },
+    { "id": 5, "parcelaId": 6, "valor": 40.0, "data": "2026-07-22T16:20:00.000", "formaPagamento": "pix", "anotacao": "Pagamento parcial, resto depois" },
+    { "id": 6, "parcelaId": 12, "valor": 120.0, "data": "2026-04-14T08:00:00.000", "formaPagamento": "cartao", "anotacao": null },
+    { "id": 7, "parcelaId": 14, "valor": 150.0, "data": "2026-07-25T17:05:00.000", "formaPagamento": "pix", "anotacao": null }
+  ]
+}
