@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "exportedAt": "2026-08-24T09:00:00.000",
+  "lists": [
+    {
+      "id": "demo-list-semana",
+      "name": "Compras da Semana",
+      "createdAt": "2026-08-22T09:15:00.000",
+      "pinned": true,
+      "items": [
+        { "id": "i-arroz", "name": "Arroz", "category": "Essenciais", "quantity": 5, "unit": "kg", "bought": true, "price": 28.9 },
+        { "id": "i-feijao", "name": "Feijão", "category": "Essenciais", "quantity": 1, "unit": "kg", "bought": true, "price": 8.5 },
+        { "id": "i-cafe", "name": "Café", "category": "Essenciais", "quantity": 500, "unit": "g", "bought": false, "price": 14.9 },
+        { "id": "i-acucar", "name": "Açúcar", "category": "Essenciais", "quantity": 2, "unit": "kg", "bought": false, "price": 6.9 },
+        { "id": "i-banana", "name": "Banana", "category": "Frutas e Legumes", "quantity": 1, "unit": "kg", "bought": true, "price": 5.9 },
+        { "id": "i-tomate", "name": "Tomate", "category": "Frutas e Legumes", "quantity": 1, "unit": "kg", "bought": false, "price": 7.9 },
+        { "id": "i-cebola", "name": "Cebola", "category": "Frutas e Legumes", "quantity": 1, "unit": "kg", "bought": true, "price": 4.5 },
+        { "id": "i-maca", "name": "Maçã", "category": "Frutas e Legumes", "quantity": 1, "unit": "kg", "bought": false, "price": 9.9 },
+        { "id": "i-frango", "name": "Peito de frango", "category": "Carnes", "quantity": 1, "unit": "kg", "bought": false, "price": 16.9 },
+        { "id": "i-moida", "name": "Carne moída", "category": "Carnes", "quantity": 500, "unit": "g", "bought": false, "price": 22.5 },
+        { "id": "i-leite", "name": "Leite", "category": "Laticínios", "quantity": 2, "unit": "L", "bought": false, "price": 5.49 },
+        { "id": "i-queijo", "name": "Queijo mussarela", "category": "Laticínios", "quantity": 400, "unit": "g", "bought": true, "price": 18.9 },
+        { "id": "i-iogurte", "name": "Iogurte", "category": "Laticínios", "quantity": 1, "unit": "un", "bought": false, "price": 6.9 },
+        { "id": "i-papel", "name": "Papel higiênico", "category": "Higiene", "quantity": 1, "unit": "pct", "bought": false, "price": 24.9 },
+        { "id": "i-sabonete", "name": "Sabonete", "category": "Higiene", "quantity": 3, "unit": "un", "bought": true, "price": 2.5 },
+        { "id": "i-agua", "name": "Água mineral", "category": "Bebidas", "quantity": 6, "unit": "un", "bought": false, "price": 3.9 },
+        { "id": "i-suco", "name": "Suco", "category": "Bebidas", "quantity": 1, "unit": "L", "bought": false, "price": 8.9 },
+        { "id": "i-azeite", "name": "Azeite", "category": "Não perecíveis", "quantity": 500, "unit": "ml", "bought": false, "price": 19.9 },
+        { "id": "i-molho", "name": "Molho de tomate", "category": "Não perecíveis", "quantity": 1, "unit": "un", "bought": true, "price": 4.5 }
+      ]
+    },
+    {
+      "id": "demo-list-churrasco",
+      "name": "Churrasco de Sábado",
+      "createdAt": "2026-08-23T18:30:00.000",
+      "pinned": false,
+      "items": [
+        { "id": "i-picanha", "name": "Picanha", "category": "Carnes", "quantity": 1.5, "unit": "kg", "bought": false, "price": 89.9 },
+        { "id": "i-linguica", "name": "Linguiça", "category": "Carnes", "quantity": 1, "unit": "kg", "bought": false, "price": 24.9 },
+        { "id": "i-costela", "name": "Costela", "category": "Carnes", "quantity": 2, "unit": "kg", "bought": false, "price": 34.9 },
+        { "id": "i-sal-grosso", "name": "Sal grosso", "category": "Essenciais", "quantity": 1, "unit": "kg", "bought": true, "price": 5.9 },
+        { "id": "i-cerveja", "name": "Cerveja", "category": "Bebidas", "quantity": 12, "unit": "un", "bought": false, "price": 3.5 },
+        { "id": "i-refri", "name": "Refrigerante", "category": "Bebidas", "quantity": 2, "unit": "L", "bought": false, "price": 9.9 },
+        { "id": "i-carvao", "name": "Carvão", "category": "Não perecíveis", "quantity": 2, "unit": "kg", "bought": false, "price": 15.9 }
+      ]
+    },
+    {
+      "id": "demo-list-farmacia",
+      "name": "Farmácia",
+      "createdAt": "2026-08-24T08:00:00.000",
+      "pinned": false,
+      "items": [
+        { "id": "i-creme-dental", "name": "Creme dental", "category": "Higiene", "quantity": 1, "unit": "un", "bought": true, "price": 5.9 },
+        { "id": "i-desodorante", "name": "Desodorante", "category": "Higiene", "quantity": 1, "unit": "un", "bought": false, "price": 12.9 },
+        { "id": "i-shampoo", "name": "Shampoo", "category": "Higiene", "quantity": 1, "unit": "un", "bought": false, "price": 15.9 }
+      ]
+    }
+  ]
+}
