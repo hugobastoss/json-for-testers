@@ -1,0 +1,126 @@
+{
+  "app": "Meu Pix",
+  "exportedAt": "2026-08-10T01:07:45.073159",
+  "keys": [
+    {
+      "id": "k1",
+      "type": "cpf",
+      "value": "111.444.777-35",
+      "nickname": "Recebimentos",
+      "bank": "Nubank",
+      "isPinned": true,
+      "isContact": false
+    },
+    {
+      "id": "k2",
+      "type": "telefone",
+      "value": "(92) 98433-6501",
+      "nickname": "Celular principal",
+      "bank": "Itaú Unibanco",
+      "isPinned": false,
+      "isContact": false
+    },
+    {
+      "id": "k3",
+      "type": "email",
+      "value": "contato@minhaloja.com.br",
+      "nickname": "Loja online",
+      "bank": "Inter",
+      "isPinned": true,
+      "isContact": false
+    },
+    {
+      "id": "k4",
+      "type": "aleatoria",
+      "value": "a1b2c3d4-e5f6-47a8-9b12-3c4d5e6f7a8b",
+      "nickname": "PDV Loja Centro",
+      "bank": "PagBank",
+      "isPinned": false,
+      "isContact": false
+    },
+    {
+      "id": "k5",
+      "type": "cnpj",
+      "value": "11.222.333/0001-81",
+      "nickname": "Caixa da empresa",
+      "bank": "Sicoob",
+      "isPinned": false,
+      "isContact": false
+    },
+    {
+      "id": "k6",
+      "type": "telefone",
+      "value": "(92) 99999-1234",
+      "nickname": "Mãe",
+      "bank": "Caixa Econômica Federal",
+      "isPinned": false,
+      "isContact": true
+    },
+    {
+      "id": "k7",
+      "type": "email",
+      "value": "aluguel@imobiliaria.com",
+      "nickname": "Aluguel",
+      "bank": "Bradesco",
+      "isPinned": false,
+      "isContact": true
+    }
+  ],
+  "payments": [
+    {
+      "id": "1786241265073",
+      "keyNickname": "Recebimentos",
+      "keyValue": "111.444.777-35",
+      "bank": "Nubank",
+      "amount": 150.0,
+      "txid": "CONSAGO2026",
+      "description": "Consultoria - Agosto",
+      "payload": "00020101021126330014br.gov.bcb.pix0111111444777355204000053039865406150.005802BR5912Recebimentos6006MANAUS62390511CONSAGO20260820Consultoria - Agosto63046011",
+      "createdAt": "2026-08-08T23:07:45.073159"
+    },
+    {
+      "id": "1786316865073",
+      "keyNickname": "Loja online",
+      "keyValue": "contato@minhaloja.com.br",
+      "bank": "Inter",
+      "amount": 89.9,
+      "txid": "PEDIDO4521",
+      "description": "Pedido #4521",
+      "payload": "00020101021126460014br.gov.bcb.pix0124contato@minhaloja.com.br520400005303986540589.905802BR5911Loja online6006MANAUS62300510PEDIDO45210812Pedido #452163049D47",
+      "createdAt": "2026-08-09T20:07:45.073159"
+    },
+    {
+      "id": "1786324065073",
+      "keyNickname": "Celular principal",
+      "keyValue": "(92) 98433-6501",
+      "bank": "Itaú Unibanco",
+      "amount": null,
+      "txid": "",
+      "description": "",
+      "payload": "00020101021126360014br.gov.bcb.pix0114+55929843365015204000053039865802BR5917Celular principal6006MANAUS62070503***6304EB53",
+      "createdAt": "2026-08-09T22:07:45.073159"
+    },
+    {
+      "id": "1786332465073",
+      "keyNickname": "PDV Loja Centro",
+      "keyValue": "a1b2c3d4-e5f6-47a8-9b12-3c4d5e6f7a8b",
+      "bank": "PagBank",
+      "amount": 35.0,
+      "txid": "ALMOCO",
+      "description": "Almoço",
+      "payload": "00020101021126580014br.gov.bcb.pix0136a1b2c3d4-e5f6-47a8-9b12-3c4d5e6f7a8b520400005303986540535.005802BR5915PDV Loja Centro6006MANAUS62200506ALMOCO0806Almoco6304D5A5",
+      "createdAt": "2026-08-10T00:27:45.073159"
+    },
+    {
+      "id": "1786334265073",
+      "keyNickname": "Recebimentos",
+      "keyValue": "111.444.777-35",
+      "bank": "Nubank",
+      "amount": 1000.0,
+      "txid": "ALUGUEL08",
+      "description": "Aluguel de agosto",
+      "payload": "00020101021126330014br.gov.bcb.pix01111114447773552040000530398654071000.005802BR5912Recebimentos6006MANAUS62340509ALUGUEL080817Aluguel de agosto6304E92A",
+      "createdAt": "2026-08-10T00:57:45.073159"
+    }
+  ]
+}
